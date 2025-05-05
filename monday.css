@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 400;
+    list-style-type: none;
+    font-size: 24px;
+}
+
+section > header > h2{
+    color: greenyellow;
+    }
+    
+    section h2{
+        font-size: 30px;
+        font-weight: 700;
+        font-weight: 400;
+        color: blue;
+         }
+    section  > h2{
+        color: tomato;
+    }
+
+    h2{
+        color: red;
+}
+
+
+h2 ~ p{
+  background-color: lightslategray;
+}
+h2 + p{
+    background-color: lightcoral;
+}
+
+p::first-letter{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+::selection{
+   color: green;
+   background-color: rgb(173, 206, 230);
+}
+
+h2::before{
+    content: "Club Name:";
+    color: blue;
+}
+
+.mine{
+    border-block-end: 5px solid blue;
+}
+
+
+
+
+
